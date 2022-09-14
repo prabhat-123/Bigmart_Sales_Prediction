@@ -1,0 +1,24 @@
+base:
+  project: bigmart_sales_prediction_project
+  random_state: 42
+  target_col: item_outlet_sales
+
+raw_data:
+  combined_dataset_csv: data/raw/combined_df.csv
+
+split_data:
+  train_path: data/preprocessed/train_bigmart_sales.csv
+  test_path: data/preprocessed/test_bigmart_sales.csv
+  eval_train_path: data/preprocessed/train.csv
+  eval_test_path: data/preprocessed/test.csv
+  test_size: 0.2
+
+regressors: GradientBoost
+model_dir: prediction_service/models
+
+reports:
+  # params: report/params.json
+  scores: report/scores.json
+
+webapp_model_path: prediction_service/models/model.pkl
+webapp_response_path: prediction_service/outputs/prediction.csv
