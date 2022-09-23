@@ -18,7 +18,9 @@ model_dir: prediction_service/models
 
 reports:
   # params: report/params.json
-  scores: report/scores.json
+  metrics: report/metrics/scores.json
+  artifacts_dir: report/artifacts
+
 
 webapp_model_path: prediction_service/models/model.pkl
 webapp_response_path: prediction_service/outputs/prediction.csv

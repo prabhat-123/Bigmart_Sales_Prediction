@@ -1,0 +1,15 @@
+artifact_uri: file:///home/fm-pc-lt-219/Desktop/machine_learning/supervised_algorithms/regression/big_mart_sales_prediction/mlruns/0/a60cfe5f573b47e6982ccd9d5344d98c/artifacts
+end_time: 1663330879265
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: a60cfe5f573b47e6982ccd9d5344d98c
+run_uuid: a60cfe5f573b47e6982ccd9d5344d98c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1663330874367
+status: 3
+tags: []
+user_id: fm-pc-lt-219
